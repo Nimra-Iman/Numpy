@@ -1,20 +1,14 @@
 import numpy as np
+d1 = np.array([1,2,3,4,5])
+# print(d1[2])
+# print(d1[2:4])
 
-a = np.array([1,2,3,4,5,6])
-a1 = np.array([1,2,3,4,5,6])
+import numpy as np
 
-b= np.array([[1,2,3],[4,5,6]])
-b1= np.array([[1,2,3],[4,5,6]])
+a = np.array([[10, 20, 30],
+              [40, 50, 60]])
 
-c = np.array([[[1,2,3],[4,5,6]],
-              [[5,4,3],[1,2,3]]])
-c1 = np.array([[[1,2,3],[4,5,6]],
-              [[5,4,3],[1,2,3]]])
+print(a[1, 0:1])   #[40]
 
-new = np.concatenate((c,c1), axis = 0)
-# print(new)
-# n = np.stack((b,b1), axis = 0)
-n = np.dstack((b,b1))
-print(n)
+print(a[1, 0])    # 40
 
-# [[[1,2,3] ,[1,2,3]],[[4,5,6],[4,5,6]]]
