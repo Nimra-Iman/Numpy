@@ -11,7 +11,8 @@ y=x.reshape(2,2,3) #yani two 2-D arrays bnao or hr 2-D k ander two 1-D array ho 
 # k ander 3 elements hu
 z=x.reshape(3,2,2) # yani three 2-D arrays bnao , hr 3-D k ander two 1-D yani two rows hu or
 # hr 1-D k ander 2 element hu yani 2 col hu (total ko 3 parts m divide kro, phir jo 
-# 3 parts ay un m s hr part ko 2 2 parts m mazeed divide kro or jo parts bny un m 2 2 elements dikhao )
+# 3 parts ay un m s hr part ko 2 2 parts m mazeed divide kro or jo parts 
+# bny un m 2 2 elements dikhao )
 print(y)
 # print(z)
 
