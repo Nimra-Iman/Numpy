@@ -6,15 +6,18 @@ index=np.where(d==2)  #yani "d" m 2 jhan jhan bhi h us ka index bta do
 print(index)
 
 # now we will find the indexes where the values are even
-# for i in d:
-#     if (i%2==0):
-#         index=np.where(d==i)  #2nd iteration m dekha k value "2" pr remainder "0" h, or phir
-#         # hr us index ko dekhyn gy jha jha "2" present ho ga, is liye output m repeatation 
-#         # a rhi ,,,, asal m is time "i" m "2" mojood h or hm keh rhyn hn k "d" m jhan jhan
-#         # bhi "2" mojod h un ka indexes bta do , isliye bhi repeatation a rhi
-#         print(index)  #1 3 4 5 
+for i in d:
+    if (i%2==0):
+        index=np.where(d==i)  #2nd iteration m dekha k value "2" pr remainder "0" h, or phir
+        # hr us index ko dekhyn gy jha jha "2" present ho ga, is liye output m repeatation 
+        # a rhi ,,,, asal m is time "i" m "2" mojood h or hm keh rhyn hn k "d" m jhan jhan
+        # bhi "2" mojod h un ka indexes bta do , isliye bhi repeatation a rhi
+        print(index)  #1 3 4 5 
 
-
+print()
+print()
+print()
+print()
 #   !!!!!!!!!!!!!!!1  searchsorted()  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 # searchsort performs a binary search in an array and returns an index where the specified
 # value would be inserted to maintain the search order
