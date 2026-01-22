@@ -23,8 +23,8 @@ print(d)
 # minutes m customers k any ki kia probability h?
 customer=random.poisson(lam=3, size=10)
 print(customer)
-# sns.histplot(customer, kde=True)
-# plt.show()
+sns.histplot(customer, kde=True)
+plt.show()
 
 
 # DIFFERENCE BETWEEN NORMAL AND POISSON DISTRIBUTION:

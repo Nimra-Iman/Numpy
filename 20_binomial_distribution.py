@@ -21,8 +21,8 @@ x = random.binomial(n=5, p=0.5, size=10)
 # ploting binomial distribution
 toss_coin=random.binomial(n=10, p=0.5, size=10)
 # print(toss_coin)
-# sns.histplot(toss_coin, kde=True)
-# plt.show()
+sns.histplot(toss_coin, kde=True)
+plt.show()
 
 
 # difference between NORMAL and BINOMIAL DISTRIBUTION

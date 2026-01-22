@@ -62,6 +62,9 @@ print(dd)
 
 
 # CONCLUSION:
+print()
+print()
+print()
 print(random.randint(100, size = (2,2)))
 print(random.rand(3,2,1))
 

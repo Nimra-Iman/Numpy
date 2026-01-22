@@ -1,7 +1,8 @@
 import numpy as np
 # ndarray: any array object in numpy called ndarray
 
-x=np.array([1,2,3]) #yani hm n array class ka ek object hi to bnaya and this object is called ndarray
+x=np.array([1,2,3]) #yani hm n array class ka ek object hi to bnaya and this
+# object is called ndarray
 print(x)
 print(type(x)) #<class 'numpy.ndarray'>
 
@@ -12,7 +13,8 @@ print(y)
 #   !!!!!!!!!!!  DIMENTIONS OF ARRAY  !!!!!!!!!!!!!!!!!!!!
 # DIMENTIONS IN ARRAY IS ONE LEVEL OF ARRAY DEPTH (nested arrays)
 # 0-D array: 
-z=np.array(42) #In Python, a scalar is a single value or data item, as opposed to an array or matrix which can hold multiple values.
+z=np.array(42) #In Python, a scalar is a single value or data item, as opposed to an 
+# array or matrix which can hold multiple values.
 print(z)
 
 # 1-D array: an array that has 0-D as its elements called 1-D or unidimentional array
