@@ -8,7 +8,7 @@ import numpy as np
 #  ---------------  Convert Degrees Into Radians
 arr=np.array([1,2,3,4,5])
 a=np.deg2rad(arr)
-# print(a)
+print(a)
 
 print(np.deg2rad(180))
 

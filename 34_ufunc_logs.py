@@ -8,7 +8,8 @@ import numpy as np
 d=np.array([23,34,45,1,10])
 print(np.log10(d)) #yani d k hr ek ek element ka log10 print kro
 
-
+print()
+print()
 # ---------------  calculating log at base 2
 print("calculating log at base 2")
 d=np.array([34,2,1,0,97,43]) #ab 0 pr -inf show ho rha, yani is ka log nhi le skty,log of

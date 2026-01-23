@@ -16,7 +16,7 @@ c=np.subtract(a,b) #(means a-b)
 a=np.array([1,2,3,4])
 b=np.array([11,12,13,14])
 c=np.multiply(a,b) #(means a*b)
-# print(c)
+print(c)
 
 # ------------ divide
 a=np.array([1,2,3,4])
