@@ -5,3 +5,10 @@
 # non-contagious memory locations, but arrays are placed in contagious memory locations.
 # NUMPY mostly written in python but for some fast compututation, some part is written
 #  C and C++
+
+
+
+a = [1,2,3,4,5]
+b = [1,2,3,4,5]
+x = list(map(lambda a,b: a+b, a,b))
+print(x)

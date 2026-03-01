@@ -1,17 +1,8 @@
 import numpy as np
-# a = np.array([1,2,3,4,5])
-# b = np.array([1,2,3,4,5])
-# print(np.add(a,b))
+val=3.89932 
+print("rounded off to 0 decimal place = ", np.round(val))
+print("rounded off to 1 decimal place = ", np.round(val, 1))
 
-# def summ(array1, array2):
-#     return array1+array2
-
-# demo_func = np.frompyfunc(summ, 2, 1)
-# print(demo_func(a,b))
-
-
-# fix, trunc, round, ciel, floor
-
-a = np.array([2.0, 3.2739])
-print(np.floor(a))
-
+valu=3.9987808
+print("rounding to 0 decimal point= ", np.around(valu))
+print("rounding to 1 decimal point= ", np.around(valu,1))

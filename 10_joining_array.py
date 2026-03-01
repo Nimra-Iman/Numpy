@@ -71,7 +71,7 @@ ddd1=np.array([[[11,22,33],[44,55,66]],
                [[77,88,99],[100,101,102]]])
 
 ddd_new=np.concatenate((ddd0,ddd1),axis=0)
-# print(ddd_new)
+print(ddd_new)
 
 
 # !!!!!!!!!!!!!!  stack()  !!!!!!!!!!!!!!!!!!!!
