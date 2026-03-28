@@ -7,8 +7,3 @@
 #  C and C++
 
 
-
-a = [1,2,3,4,5]
-b = [1,2,3,4,5]
-x = list(map(lambda a,b: a+b, a,b))
-print(x)

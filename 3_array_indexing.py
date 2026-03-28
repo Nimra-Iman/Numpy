@@ -8,9 +8,6 @@
 # a[:, 0]     # then becomes 1D
 
 
-
-
-
 import numpy as np
 # accessing 1-D
 d=np.array([22,33,44])

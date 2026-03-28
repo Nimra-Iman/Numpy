@@ -1,5 +1,5 @@
 import numpy as np
-# search an array for a certain value and return the index that has that value,,using  where()
+# search an array for a certain value and return the index that has that value,using  where()
 
 d=np.array([1,2,3,2,2,4,5])
 index=np.where(d==2)  #yani "d" m 2 jhan jhan bhi h us ka index bta do
@@ -18,7 +18,7 @@ print()
 print()
 print()
 print()
-#   !!!!!!!!!!!!!!!1  searchsorted()  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+#   !!!!!!!!!!!!!!!  searchsorted()  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 # searchsort performs a binary search in an array and returns an index where the specified
 # value would be inserted to maintain the search order
 
