@@ -5,5 +5,3 @@
 # non-contagious memory locations, but arrays are placed in contagious memory locations.
 # NUMPY mostly written in python but for some fast compututation, some part is written
 #  C and C++
-
-

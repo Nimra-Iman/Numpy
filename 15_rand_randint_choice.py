@@ -34,7 +34,7 @@ print(random_2_D)
 # generating an integer random 2-D array that contains 2 rows with random 2 elements from 0 to 99
 print(" generating an integer random 2-D array that " 
 "contains 2 rows with random 2 elements from 0 to 99")
-r_f_dd=random.rand(2,3)
+r_f_dd=random.randint(100, size=(2,3))
 print(r_f_dd)
 
 
@@ -48,18 +48,21 @@ print(random_from_array)
 #                               from previous array
 from numpy import random
 import numpy as np
-rand=np.array([3,5,7,9])
-d=random.choice(rand, size=(5))
+r=np.array([3,5,7,9])
+d=random.choice(r, size=(5))
 print(d)
 
 
 # create a 2-D array from 1-D array and the elements in 2-D are actually randomly selected
 # elements from 1-D
-d=np.array([1,2,3,4,5,6])
-random_num_from_d=random.choice(d)
-dd=random.randint(random_num_from_d, size=((2,2)))
-print(dd)
+# d=np.array([1,2,3,4,5,6])
+# random_num_from_d=random.choice(d)
+# dd=random.randint(random_num_from_d, size=((2,2)))
+# print(dd)
 
+d = np.array([1,2,3,4,5])
+dd = random.choice(d, size=(2,2))
+print(dd)
 
 # CONCLUSION:
 print()
